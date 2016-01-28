@@ -19,5 +19,5 @@ Include both maps.js and a link to the Google Maps API js making sure to replace
 you will also need to define a html element to contain the map. The HTML element must contain data attributes called `data-latitude` and `data-longitude` with values corresponding to the latitude and longitude of the place you want to mark.
 
 ```html
-<div class="map" id="map_canvas" data-latitude="12345678" data-longitude="87654321"></div>
+<div id="map_canvas" data-latitude="12345678" data-longitude="87654321"></div>
 ```
